@@ -1,4 +1,3 @@
-Int
 import java.util.Random;
 
 public class Client {
