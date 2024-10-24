@@ -8,11 +8,11 @@ public class Client {
         Interface array = new Array(s);
 
         for (int i = 0; i < s; i++) {
-            array.insert(random.nextInt(50));
+            array.insert(random.nextLong(50));
         }
 
         array.display();
-        long Found = random.nextInt(s);
+        long Found = random.nextLong(s);
         if (array.find(Found)) {
             System.out.println("Значение " + Found + " было найдено.");
         } else {
