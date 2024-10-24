@@ -61,6 +61,7 @@ public class Array implements Interface {
     }
     
     public void getMaxElem() {
+        int maxElem = 0;
         for (int i = 0; i < n; i++){
             if (array[i] > maxElem) {
                 maxElem = (int) array[i];
@@ -70,6 +71,7 @@ public class Array implements Interface {
     }
 
     public void getMinElem() {
+        long minElem = array[0];
         for (int i = 0; i < n; i++){
             if(array[i] < minElem){
                 minElem = (int) array[i];
