@@ -1,4 +1,4 @@
-
+Int
 import java.util.Random;
 
 public class Client {
@@ -9,11 +9,11 @@ public class Client {
         Interface array = new Array(s);
 
         for (int i = 0; i < s; i++) {
-            array.insert(random.nextLong(50));
+            array.insert(random.nextInt(50));
         }
 
         array.display();
-        long Found = random.nextLong(s);
+        long Found = random.nextInt(s);
         if (array.find(Found)) {
             System.out.println("Значение " + Found + " было найдено.");
         } else {
