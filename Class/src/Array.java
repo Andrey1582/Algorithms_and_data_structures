@@ -2,8 +2,6 @@ public class Array implements Interface {
     private final long[] array;
     private int n;
     private int count = 0;
-    private int maxElem = 0;
-    private int minElem = 0;
 
     public Array(int size) {
         this.array = new long[size];
