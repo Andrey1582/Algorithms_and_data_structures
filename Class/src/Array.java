@@ -1,7 +1,6 @@
 public class Array implements Interface {
     private final long[] array;
     private int n;
-    private int count = 0;
 
     public Array(int size) {
         this.array = new long[size];
@@ -51,7 +50,7 @@ public class Array implements Interface {
     }
 
     public void getSize() {
-
+        int count = 0;
         for (int i = 0; i < n; i++) {
             count ++;
             }
